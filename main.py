@@ -72,6 +72,8 @@ def append_data(entries, current_entry, weekday_index):
         for row in data:
             writer.writerow(row)
 
+    print("Database has been updated!")
+
 
 def get_current_draw():
     #opening driver and navigating to fantasy 5 page
